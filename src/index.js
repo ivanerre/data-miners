@@ -6,6 +6,7 @@ import { ChakraProvider } from "@chakra-ui/react"
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
+      <AmplifySignOut/>
       <App />
     </ChakraProvider>
   </React.StrictMode>,

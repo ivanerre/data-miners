@@ -2,6 +2,12 @@ import React, { Fragment } from 'react';
 import { Flex, Heading, Center, Button, InputGroup, InputLeftElement, Input, Box, Spacer } from "@chakra-ui/react"
 import { SearchIcon } from '@chakra-ui/icons'
 import StyledDropzone from './Dropzone1';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import {AmplifySignOut, withAuthentificator} from '@aws-amplify/ui-react';
+
+Amplify.configure(awsconfig)
+
 
 function App() {
   return (
@@ -32,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthentificator(App);

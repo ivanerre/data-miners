@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dataminers-dev-211639-authRole",
+      "UnauthRoleArn": "arn:aws:iam::444440664393:role/amplify-dataminers-dev-211639-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::444440664393:role/amplify-dataminers-dev-211639-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dataminers-dev-211639-deployment",
+      "UnauthRoleName": "amplify-dataminers-dev-211639-unauthRole",
+      "StackName": "amplify-dataminers-dev-211639",
+      "StackId": "arn:aws:cloudformation:us-east-1:444440664393:stack/amplify-dataminers-dev-211639/ca257ba0-1e6f-11ec-9c54-0efbf6f92cb5",
+      "AmplifyAppId": "d314o5bws13m6a"
+    },
+    "categories": {
+      "auth": {
+        "dataminers6421c89c": {}
+      }
+    }
+  }
+}
