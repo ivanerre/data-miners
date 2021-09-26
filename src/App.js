@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import { Flex, Heading, Center, Button, InputGroup, InputLeftElement, Input, Box, Spacer } from "@chakra-ui/react"
 import { SearchIcon } from '@chakra-ui/icons'
-import StyledDropzone from './Dropzone1';
+import UploadImageToS3WithReactS3 from './components/UploadToS3';
 
 function App() {
   return (
     <Fragment>
       <Flex bg="gray.700" color="white" w="100%" p={6}>
         <Box>
-          <Heading size="lg">Hot Pursuit Challenge</Heading>
+          <Heading size="lg">Hot Autonomous Pursuit Challenge</Heading>
         </Box>
         <Spacer/>
         <Box>
@@ -23,10 +23,7 @@ function App() {
         </Box>
       </Flex>
       <Center w="100%" minHeight="500">
-        <StyledDropzone></StyledDropzone>
-      </Center>
-      <Center>
-        <Button>Subir</Button>
+        <UploadImageToS3WithReactS3></UploadImageToS3WithReactS3>
       </Center>
     </Fragment>
   );
